@@ -11,7 +11,7 @@ const styles = {
     justifyContent: 'space-around',
   },
   gridList: {
-    width: 500,
+    width: "100%",
     height: 450,
     overflowY: 'auto',
   },
@@ -51,7 +51,7 @@ const tilesData = [
 const Items = () => (
   <div style={styles.root}>
     <GridList
-      cellHeight={180}
+      cellHeight={250}
       style={styles.gridList}
     >
       <Subheader>Items for Sale</Subheader>
