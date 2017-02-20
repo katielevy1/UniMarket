@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
+    "firebase": "^3.6.9",
     "material-ui": "^0.17.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
