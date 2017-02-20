@@ -3,6 +3,7 @@ import Header from './header';
 import Paper from 'material-ui/Paper';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import Items from './gridlist';
 
 const style = {
   height: 100,
@@ -19,6 +20,7 @@ export default class Container extends React.Component {
       <MuiThemeProvider >
         <div>
           <Header school="University of San Diego" />
+          <Items />
         </div>
       </MuiThemeProvider>
     );

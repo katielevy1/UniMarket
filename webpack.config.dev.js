@@ -29,7 +29,7 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify('development'),
     }),
     new HtmlWebpackPlugin({
-      title: 'webpack2 boilerplate',
+      title: 'UniMarket',
       template: './app/index.ejs',
     }),
   ],

@@ -1,5 +1,5 @@
-# react-webpack2
-Boilerplate for React built with Webpack2
+# UniMarket
+A marketplace for students to sell and buy university related products.
 
 ## setup
 * `npm install`

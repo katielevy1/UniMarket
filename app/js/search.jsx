@@ -21,10 +21,10 @@ export default class Search extends React.Component {
     return (
       <div>
         <AutoComplete
-          hintText="Type anything"
+          hintText="What are you looking to buy?"
           dataSource={this.state.dataSource}
           onUpdateInput={this.handleUpdateInput}
-          floatingLabelText="Full width"
+          floatingLabelText="Search"
           fullWidth={true}
         />
       </div>
